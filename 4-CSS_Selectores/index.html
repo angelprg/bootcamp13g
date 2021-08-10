@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS: Selectores avanzados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CSS: Selectores Avanzados</h1>
+  </header>
+  <main>
+    <div class="contenido">
+      <h3>Selectores combinados</h2>
+      <ul>
+        <li>Selector descendiente (espacio en blanco)</li>
+        <li>Selector hijo directo '>'</li>
+        <li>Selector hermano posterior '~'</li>
+        <li>Selector hermano posterior adyacente '+'</li>
+      </ul>
+      <h3>Pseudoclases</h3>
+      <ul>
+        <li>:active</li>
+        <li>:focus</li>
+        <li>:hover</li>
+        <li>:last-child</li>
+        <li>:visited</li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements">Documentación</a></li>
+      </ul>
+      <h3>Pseudoelementos</h3>
+      <ul>
+        <li>::after</li>
+        <li>::before</li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements">Documentación</a></li>
+      </ul>
+    </div>
+    <p> Aquí termina el temario</p>
+    <hr >
+
+
+
+
+    <div id="ejemplo">
+      <h2>Código de ejemplo</h2>
+      <hr>
+      <div>
+        <article>
+          <p>Párrafo con información general</p>
+        </article>
+        <div class="contenido">
+          <article>
+            <h3>Título del primer artículo</h3>
+            <p>Párrafo 1 del primer artículo</p>
+            <div class="descripcion">
+              <p>Párrafo 2 del primer artículo</p>
+              <p>Párrafo 3 del primer artículo</p>
+            </div>
+            <a href="#">Enlace del primer artículo</a>
+            <p>Párrafo con información del autor</p>
+          </article>
+          <article>
+            <h3>Título del segundo artículo</h3>
+            <p>Párrafo 1 del segundo artículo</p>
+            <p class="asdf">Párrafo 2 del segundo artículo</p>
+            <p>Párrafo 3 del segundo artículo</p>
+            <a href="#">Enlace del segundo artículo</a>
+            <p>Párrafo con información del autor</p>
+          </article>
+          <article class="descripcion">
+            <h3>Título del tercer artículo</h3>
+            <p>Párrafo 1 del tercer artículo</p>
+            <div class="descripcion">
+              <p>Párrafo 2 del tercer artículo</p>
+              <p>Párrafo 3 del tercer artículo</p>
+            </div>
+            <a href="#">Enlace del tercer artículo</a>
+            <p>Párrafo con información del autor</p>
+          </article>
+        </div>
+        <hr>
+        <div>
+          <form>
+            <h2>Formularios</h2>
+            <h3>Ingresa tu correo:</h3>
+
+            <label for="input_texto">Ingresa un texto:</label>
+            <input type="text" placeholder="18/08/1982" />
+
+            <input type="password" />
+            <input type="number" max="10" min="1"/>
+
+            <input name="tamal" type="radio" value="Opción 1">
+            <label for="Opción 1">Rojo</label>
+            <input name="tamal" type="radio" value="Opción 2">
+            <label for="Opción 2">Verde</label>
+
+            <input name="opcion_opcional" type="checkbox" value="Opción opcional"/>
+            <label for="opcion_opcional">Opción opcional</label>
+            
+            <textarea></textarea>
+            <select>
+              <option>Rojo</option>
+              <option>Verde</option>
+              <option>Azul</option>
+            </select>
+            <button>Hola!</button>
+            <input type="button" value="Cancelar">
+            <input type="button" value="Enviar">
+          </form>
+        </div>
+        <footer>
+          <div>
+            Enlaces del footer
+          </div>
+          <article>
+            <p>Párrafo para el footer del sitio</p>
+            <p>Párrafo para el copyright del sitio</p>
+          </article>
+        </footer>
+      </div>
+      <hr>
+    </div>
+  </main>
+ <br><br><br>
+ <br><br><br>
+ <br><br><br>
+ <br><br><br>
+ <br><br><br>
+  
+</body>
+</html>
