@@ -1,0 +1,44 @@
+.contenedor {
+  width: 500px;
+  height: 275px;
+  background-color:yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+}
+
+.contenedor3 {
+  align-items: flex-end;
+}
+
+.caja {
+  width: 50px;
+  height: 250px;
+  /* margin: 10px; */
+  background-color: blue; 
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+
+}
+
+.caja1{
+  flex-grow:5;
+}
+
+.caja2 {
+  flex-grow:1;
+  background-color:yellow;
+  /* height: 100px;
+  width: 75px; */
+}
+
+.caja3 {
+  flex-grow:15;
+}
