@@ -1,0 +1,58 @@
+nav>ul{
+  display:none;
+}
+nav>div{
+  display:flex;
+    justify-content:flex-end;
+}
+
+@media (min-width: 576px){
+  nav>ul{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content:space-around;
+  }
+  nav>div{
+    display: none;
+  }
+}
+
+
+
+#container{
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px){
+  #container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    color: purple;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px){
+  #container{
+    color: brown;
+  }
+}
+
+img {
+  max-height:100%;
+}
+.item{
+  padding: 10px;
+  margin: 10px;
+  background-color:azure;
+
+}
+@media (min-width: 576px) and (max-width: 1023px){
+  .item{
+    background-color:salmon;
+    max-width: 300px;
+  }
+}
