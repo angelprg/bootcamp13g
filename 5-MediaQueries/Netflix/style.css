@@ -103,5 +103,20 @@ header>p{
     margin: 0;
     height: 51px;
   }
+}
 
+#email-placeholder{
+  color: gray;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  position: absolute;
+  /* transform: scale(0.8); */
+  transition: 0.2s;
+}
+
+
+#email-input:focus+div{
+  /* background-color: pink; */
+  transform: scale(0.8) translateY(-15px);
 }
