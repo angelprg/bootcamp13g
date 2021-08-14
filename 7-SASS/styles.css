@@ -1,0 +1,12 @@
+.card {
+  color: green;
+  border: 1px solid #FFF;
+  display: block;
+}
+
+.card-brown {
+  color: brown;
+  border: 1px solid black;
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */

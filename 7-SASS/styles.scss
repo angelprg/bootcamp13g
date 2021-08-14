@@ -1,0 +1,87 @@
+// $color-primario: #666;
+
+@mixin bloque($color-texto, $color-borde) {
+  color: $color-texto;
+  border: 1px solid $color-borde;
+  display: block;
+}
+
+.card{
+  @include bloque(green, #FFF);
+}
+.card-brown{
+  @include bloque(brown, black);
+}
+
+// // Variables
+// $primary-color: #28ceda;
+// $margen-title-card: 2rem;
+
+// // Mixins
+// @mixin card($fondo) {
+//   width: 250px;
+//   max-width: 250px;
+//   border-radius: 10px;
+//   border: 1px solid #FFF;
+//   margin: 10px;
+//   padding: 10px;
+//   background-color: $fondo;
+//   h2 {
+//     color: #000;
+//     font-size: 1.2rem;
+//     font-weight: bold;
+//     margin-bottom: $margen-title-card;
+//   }
+// }
+
+// // Estilos
+// body {
+//   background-color: black;
+//   color: $primary-color;
+// }
+
+// header {
+//   background-color: black;
+// }
+
+// nav {
+//   display: block;
+// }
+
+// nav ul {
+//   display: flex;
+//   justify-content: space-around;
+//   li {
+//     text-decoration: underline;
+//     color: $primary-color;
+//     &:hover {
+//       cursor: pointer;
+//       background-color: gray;
+//     }
+//   }
+// }
+
+// main {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .card{
+//   @include card(black);
+//   h2{
+//     color: #FFF;
+//   }
+// }
+
+// .card-secondary{
+//   @include card(darkslateblue);
+// }
+
+// .card-darks{
+//   @include card(darkslategrey);
+// }
+
+// .card-light {
+//   @include card($primary-color);
+//   color: black;
+// }
