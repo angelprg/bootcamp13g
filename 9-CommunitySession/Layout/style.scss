@@ -1,0 +1,16 @@
+#main-container{
+  display:flex;  
+  
+  #aside-left{
+    min-width: 220px;
+    border: 1px solid black;
+  }
+  main{
+    flex-grow: 1;
+    border: 1px solid black;
+  }
+  #aside-right{
+    min-width: 320px;
+    border: 1px solid black;
+  }
+}
