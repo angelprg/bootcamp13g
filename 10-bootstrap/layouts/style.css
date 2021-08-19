@@ -1,0 +1,31 @@
+.rojo {
+  background-color: red;
+}
+.azul {
+  background-color: blue;
+}
+.verde {
+  background-color: greenyellow;
+}
+.morado {
+  background-color: indigo;
+}
+.rosa {
+  background-color: palevioletred;
+}
+.beige{
+  background-color: orange
+}
+ 
+/* div {
+  border: 3px solid #FFF;
+} */
+
+.alto-100{
+  height: 100px;
+}
+/*
+.row{
+  border: 5px solid black;
+} */
+

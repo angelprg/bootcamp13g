@@ -1,0 +1,10 @@
+.container{
+  background-color: beige;
+}
+.row {
+  background-color: cadetblue;
+}
+.col {
+  background-color: grey;
+  border: 1px solid black;
+}
